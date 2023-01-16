@@ -7,14 +7,6 @@ while True:
     else:
         print("Arv on liiga väike")
 
-for i in range(100):
-    number = int(input("Sisestage number: "))
-    if number >= 10:
-        print("Õigesti")
-        break
-    else:
-        print("Arv on liiga väike")
-
 
 #22
 print("Ma tahan kommi")
