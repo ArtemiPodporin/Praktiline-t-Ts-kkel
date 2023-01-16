@@ -1,11 +1,14 @@
 ﻿#0
+p=0
 while True:
-    number = int(input("Sisestage number: "))
-    if number >= 10:
+    number = int(input("Sisestage number suurem kui 10: "))
+    p+=1
+    if number >= 10: 
         print("Õigesti")
         break
     else:
         print("Arv on liiga väike")
+print("katsed",p)
 
 
 #22
